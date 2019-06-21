@@ -1,4 +1,4 @@
-FROM atlassian/confluence-server
+FROM atlassian/confluence-server:6.15.5
 ADD https://cdn.mysql.com//Downloads/Connector-J/mysql-connector-java-5.1.47.tar.gz /tmp/mysql-connector-java-5.1.47.tar.gz
 
 RUN cd /tmp && tar -xzf mysql-connector-java-5.1.47.tar.gz 
